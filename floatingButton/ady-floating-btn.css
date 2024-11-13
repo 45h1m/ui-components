@@ -1,0 +1,59 @@
+.ady-floating-btn .ady-floating-btn-main-icon {
+    transform: scale(1) rotate(0deg);
+    opacity: 1;
+    transition: 400ms ease;
+}
+.ady-floating-btn .ady-floating-btn-close-icon {
+    transform: rotate(0deg);
+    opacity: 0;
+    transition: 400ms ease;
+}
+.ady-floating-btn-backdrop {
+    transition: 500ms ease;
+}
+.ady-floating-btn.active .ady-floating-btn-backdrop {
+    background-color: #00000053;
+    backdrop-filter: blur(1px);
+}
+.ady-floating-btn.active .ady-floating-btn-main-icon {
+    transform: scale(0) rotate(360deg);
+    opacity: 0;
+}
+.ady-floating-btn.active .ady-floating-btn-close-icon {
+    transform: rotate(135deg);
+    opacity: 1;
+}
+
+.ady-floating-btn .ady-floating-btn-option-container {
+    transform: scale(0) translateY(100%);
+    opacity: 0;
+    transition: 400ms ease;
+}
+.ady-floating-btn.active .ady-floating-btn-option-container {
+    opacity: 1;
+    transform: scale(1) translateY(0%);
+}
+
+.ady-floating-btn .ady-floating-btn-option {
+    transition: 500ms ease;
+    opacity: 0;
+    scale: 0;
+}
+.ady-floating-btn.active .ady-floating-btn-option {
+    transition: 500ms ease;
+    opacity: 1;
+    scale: 1;
+}
+
+.ady-floating-btn.active .ady-floating-btn-option:nth-child(1) { transition-delay: 0s; }
+.ady-floating-btn.active .ady-floating-btn-option:nth-child(2) { transition-delay: 0.1s; }
+.ady-floating-btn.active .ady-floating-btn-option:nth-child(3) { transition-delay: 0.2s; }
+.ady-floating-btn.active .ady-floating-btn-option:nth-child(4) { transition-delay: 0.3s; }
+.ady-floating-btn.active .ady-floating-btn-option:nth-child(5) { transition-delay: 0.4s; }
+.ady-floating-btn.active .ady-floating-btn-option:nth-child(6) { transition-delay: 0.5s; }
+.ady-floating-btn.active .ady-floating-btn-option:nth-child(7) { transition-delay: 0.6s; }
+.ady-floating-btn.active .ady-floating-btn-option:nth-child(8) { transition-delay: 0.7s; }
+.ady-floating-btn.active .ady-floating-btn-option:nth-child(9) { transition-delay: 0.8s; }
+.ady-floating-btn.active .ady-floating-btn-option:nth-child(10) { transition-delay: 0.9s; }
+
+/* 45h1m Nov 2024 */
